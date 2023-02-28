@@ -45,3 +45,10 @@ for (let i = 0; i < list.length; i++) {
   item.textContent = list[i];
   ul.append(item);
 }
+
+//ЗАДАЧА 3
+let result = [];
+let array = document.querySelectorAll("#example li");
+for (let i = 0; i < array.length; i++) {
+  result.push(array[i].textContent);
+}
